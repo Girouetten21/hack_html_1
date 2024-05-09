@@ -1,0 +1,63 @@
+.bar-container {
+    width: 650px;
+    height: 700px;
+    position: relative;
+  }
+  
+  .bar {
+    position: absolute;
+  }
+  
+  .bar1 {
+    width: 650px;
+    height: 80px;
+    background-color: #93B5C9;
+    top: 0;
+  }
+  
+  .bar2 {
+    width: 650px;
+    height: 150px;
+    background-color: #AB2849;
+    top: 80px; 
+  }
+  
+  .bar3 {
+    width: 500px;
+    height: 100px;
+    top: 230px; 
+    margin: 10px 0 10px 150px;
+    background-color: #AB2849;
+  }
+  
+  .bar4 {
+    width: 500px;
+    height: 100px;
+    top: 340px; 
+    margin: 10px 0 10px 150px;
+    background-color: #AB2849;
+  }
+  
+  .bar5 {
+    width: 500px;
+    height: 100px;
+    top: 450px; 
+    margin: 10px 0 10px 150px;
+    background-color: #AB2849;
+  }
+  
+  .bar6 {
+    width: 500px;
+    height: 100px;
+    top: 560px; 
+    margin: 10px 0 10px 150px;
+    background-color: #AB2849;
+  }
+  
+  .bar7 {
+    width: 500px;
+    height: 80px;
+    top: 670px; 
+    margin: 10px 0 0px 80px;
+    background-color: #AB2849;
+  }

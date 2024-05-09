@@ -1,0 +1,70 @@
+h1, h2,.text-center {
+  text-align: center;
+}
+
+.space {
+  margin-bottom: 50px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.image-container {
+  background: linear-gradient(to bottom, #FFBD59 20px, white 20px, white 60px, black 60px) 0 0 / 100% 40px repeat-y;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* RUDA font */
+.ruda-font-0 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #000000;
+  font-family: 'RUDA', sans-serif;
+}
+
+.ruda-font-1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #B88940;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-family: 'RUDA', sans-serif;
+}
+
+.ruda-font-2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-family: 'RUDA', sans-serif;
+}
+
+/* Catamaran font */
+.catamaran-font {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10px;
+  font-family: 'Catamaran', sans-serif;
+}
+
+/* Open Sans font */
+.open-sans-font {
+  font-size: 50px;
+  font-weight: bold;
+  color: #B88940;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,99 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.bar1 {
+  width: 100%;
+  height: 150px;
+  background-color: #93B5C9;
+}
+
+.bar2 {
+  width: 100%;
+  height: 250px;
+  background-color: #AB2849;
+}
+
+.bar3 {
+  width: 75%;
+  height: 150px;
+  background-color: #AB2849;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.bar3-1 {
+  width: 100%;
+  height: 50%;
+  background-color: #93B5C9;
+}
+
+.bar4 {
+  width: 76%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.bar4-1 {
+  width: 100%;
+  height: 200%;
+  background-color: #93B5C9;
+}
+
+.bar4-2 {
+  width: 100%;
+  height: 200%;
+  background-color: #AB2849;
+}
+
+.bar5 {
+  width: 75%;
+  height: 150px;
+  background-color: #AB2849;
+  margin: 10px 0;
+}
+
+.bar6 {
+  width: 76%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+.bar6-1 {
+  width: 100%;
+  height: 200%;
+  background-color: #93B5C9;
+}
+
+.bar6-2 {
+  width: 100%;
+  height: 200%;
+  background-color: #AB2849;
+}
+
+.bar7 {
+  width: 100%;
+  height: 150px;
+  background-color: #AB2849;
+  margin: 10px 0;
+}

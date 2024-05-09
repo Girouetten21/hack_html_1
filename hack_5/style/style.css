@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arimo', sans-serif
+}
+
+html, body {
+  height: 100%;
+  line-height: 1.6;
+}
+
+body {
+	background-image: url("/hack_5/img/2.png"); 
+	background-size: 2000px 1545px; 
+	background-repeat: no-repeat; 
+  background-position: center -360px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+  margin-top: 150px;
+  padding-bottom: 500px;
+}
+
+.banner-background {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-text-container {
+  position: absolute;
+  text-align: left;
+  color: #EEEEEE;
+  padding-left: 100px;
+}
+
+.banner-text {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  padding-right: 100px;
+  padding-left: 100px; 
+  background-color: #00BF63;
+}
+
+.section-text {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 100px; 
+  text-align: left;
+  color: #fff;
+  background-color: #000000;
+}
+
+.content {
+  display: flex;
+  padding: 2rem;
+}
+
+.content-info {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  padding-left: 170px;
+  text-align: left;
+}
+
+.section-text-info{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 170px; 
+  text-align: left;
+}
+
+.text-column {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+}
+
+.image-caption h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.image-caption p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.content-imgs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  background-color: #00BF63;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  text-align: center;
+}
