@@ -38,3 +38,6 @@ El repositorio está organizado por ejercicios que demuestran la aplicación pr�
 
 * **Descripción:** Implementación de un layout donde los elementos se distribuyen y alinean dinámicamente utilizando las propiedades de Flexbox.
 * **Habilidad Demostrada:** Desarrollo de diseños modernos
+
+---
+*Este repositorio sirve como prueba de las habilidades fundamentales adquiridas en el desarrollo frontend.*
